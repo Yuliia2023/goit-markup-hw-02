@@ -94,8 +94,8 @@ body {
 }
 .button-primary:hover,
 .button-primary:focus {
-  background-color: var(--primary-white-color);
-  color: var(--accent);
+  background-color: #404bbf;
+  color: var(--primary-white-color);
 }
 
 /* section feauteres */
@@ -138,7 +138,6 @@ body {
 .section .text {
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
 }
 /* footer logo */
 .footer-list {
@@ -170,6 +169,7 @@ body {
 /* button filters */
 .btn-list {
   list-style: none;
+  text-decoration: none;
 }
 .btn-list .link {
   color: var(--accent);
@@ -188,6 +188,9 @@ body {
   background: #404bbf;
 }
 /* section title */
+.advantages .item {
+  text-decoration: none;
+}
 .advantages .link {
   color: var(--title-text-color);
   font-weight: 500;
@@ -197,6 +200,8 @@ body {
 .advantages .text {
   font-size: 16px;
   line-height: 1.5;
+
+  color: #434455;
 }
 /* footer */
 .footer-list .logo {
