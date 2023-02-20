@@ -14,11 +14,15 @@ body {
   letter-spacing: 0.02em;
   font-size: 16px;
 }
-/* header logo */
-.header-logo .logo {
-  color: var(--title-text-color);
+.list {
+  list-style: none;
 }
-.logo {
+.link {
+  text-decoration: none;
+}
+/*-------------------------- header logo */
+.header-logo {
+  color: var(--title-text-color);
   text-decoration: none;
   font-family: Raleway;
   font-weight: 800;
@@ -27,47 +31,41 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.header-logo .subject {
+.header-subject {
   color: var(--accent);
 }
-.list {
-  list-style: none;
-}
-.link {
-  text-decoration: none;
-}
-/* site nav */
-.site-nav .link {
+
+/*----------------------------- site nav */
+.header-link {
   color: var(--title-text-color);
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.header-link:hover,
+.header-link:focus {
   color: var(--accent);
 }
-.site-nav .link.current {
+.header-link.current {
   color: var(--accent);
 }
-/* site auth */
-.auth-nav .link {
+/* ----------------------site auth */
+.adress-link {
   color: var(--primary-text-color);
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
 }
-.auth-nav .link:hover,
-.auth-nav .link:focus {
+.adress-link:hover,
+.adress-link:focus {
   color: var(--accent);
 }
 /* hero */
-.hero-list {
+.hero {
   background-color: var(--title-text-color);
 }
-
-.hero-list .title {
+.hero-title {
   color: var(--primary-white-color);
   font-weight: 700;
   font-size: 56px;
@@ -76,12 +74,12 @@ body {
   text-align: center;
 }
 
-.button-primary {
+.hero-button {
   color: var(--primary-white-color);
   background-color: var(--accent);
   font-family: inherit;
 }
-.hero-list .button-primary {
+.hero-button {
   color: var(--primary-white-color);
   background-color: var(--accent);
 
@@ -92,25 +90,25 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.button-primary:hover,
-.button-primary:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
   color: var(--primary-white-color);
 }
 
 /* section feauteres */
-.features .title {
+.feature-title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
-.features .text {
+.features-text {
   font-size: 16px;
   line-height: 1.5;
 }
-/* section photo */
-.section .section-title {
+/* section work */
+.work-title {
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -119,35 +117,35 @@ body {
 }
 
 /* section team */
-.section-list {
+.team {
   background: #f4f4fd;
 }
 
-.section-list .photo-title {
+.team-title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
-.section-list .section-title {
+.team-subject {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
 }
-.section .text {
+.team-text {
   font-size: 16px;
   line-height: 1.5;
 }
 /* footer logo */
-.footer-list {
+.footer {
   background-color: var(--title-text-color);
 }
-.logo .footer-logo {
+.footer-logo {
   color: #f4f4fd;
 }
 
-.logo {
+.footer-link {
   color: var(--accent);
   font-family: "Raleway";
   font-style: normal;
@@ -159,7 +157,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer-list .title {
+.footer-text {
   color: var(--footer-text-color);
   font-size: 16px;
   line-height: 1.5;
@@ -171,7 +169,7 @@ body {
   list-style: none;
   text-decoration: none;
 }
-.btn-list .link {
+.btn-link {
   color: var(--accent);
   background: #f4f4fd;
   font-family: inherit;
@@ -187,31 +185,31 @@ body {
   color: var(--primary-white-color);
   background: #404bbf;
 }
-/* section title */
-.advantages .item {
+/* --------------------section advantage */
+.advantages-link {
   text-decoration: none;
 }
-.advantages .link {
+.advantages-subject {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
-.advantages .text {
+.advantages-text {
   font-size: 16px;
   line-height: 1.5;
 
   color: #434455;
 }
 /* footer */
-.footer-list .logo {
+.footer-link {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer-list .title {
+.footer-text {
   font-size: 16px;
   line-height: 1.5;
 }
